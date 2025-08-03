@@ -1,0 +1,103 @@
+.navbar{
+    background-color:#DBE2E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.logo{
+    color:black;
+    font-family: "MyCalligraphyFont",cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links{
+    font-family:"MyCalligraphyFont",cursive;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+.nav-links a{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.navbar a:hover{
+    background-color:lightslategray;
+    color: black;
+    border-radius: 4px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.text-content{
+    width: 50%;
+}
+
+.text-content h2{
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.text-content p{
+    font-size: 18px;
+    line-height:1.6;
+}
+
+
+.container{
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.button{
+    color: black;
+    background-color:skyblue;
+    border-radius: 20px;
+    padding:10px 20px ;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+p{
+    margin-left: 20px;
+    font-size: large;
+}
+
+body{
+    background-color:#9897A9;
+}
+
+h3{
+    background-color:#DBE2E9 ;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+h2{
+    background-color: beige;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
